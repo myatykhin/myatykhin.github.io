@@ -1,0 +1,109 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+/* ...existing code... */
+
+.vat-calculator {
+  background: #f8fafc;
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 2rem 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+}
+
+.vat-calculator h1 {
+  margin-bottom: 1.5rem;
+  color: #2d3748;
+  font-size: 2rem;
+}
+
+.vat-calculator form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.vat-calculator label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-weight: 500;
+  color: #374151;
+}
+
+.vat-calculator input[type="number"] {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.vat-calculator button {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  background: #6366f1;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.vat-calculator button:hover {
+  background: #4f46e5;
+}
+
+.results {
+  margin-top: 2rem;
+  font-size: 1.1rem;
+  color: #334155;
+}
+
+.results strong {
+  color: #16a34a;
+}
+
+
